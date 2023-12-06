@@ -1,0 +1,5 @@
+.students li{
+    border: none !important;
+    margin-top: 0.025rem;
+    margin-bottom: 0.025rem;
+}

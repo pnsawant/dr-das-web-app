@@ -1,0 +1,339 @@
+{% extends "layout.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="../static/mycss/events.css">
+{% endblock %}
+
+{% block title %}Events{% endblock %}
+
+<!-- Contact Page Title-->
+{% block pagetitle %}Events{% endblock %}
+
+<!-- Events Content -->
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-xl-1"></div>
+        <div class="col-xl-10 mytext">
+            <p class="mt-4">This page includes lists of <a href="#participation">conferences & Workshops</a> I
+                have participated in and my featured
+                <a href="#talk">talks in seminar & colloquium</a>.
+            </p>
+            <!-- Participation -->
+            <p class="fs-4 mt-4 mb-3" id="participation">Participation in Conferences & Workshops:</p>
+            <ol class="list-group list-group-numbered participation">
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>Universidad Nacional de Colombia, Bogota, Colombia - 2nd ComHEP Workshop 2017 </div>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>CERN, Geneva, Switzerland - LHeC and FCC-eh Workshop, 2007 </div>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>SLAC, Stanford, USA - Monte Carlo for Beyond SM (MC4BSM 2017) </div>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>Puri, India - Workshop on High Energy Physics Phenomenology (WHEPP13) </div>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>Santander, Spain - Higgs Days: “Theory meets experiment”</div>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>Les Houches, France - “Physics at the TeV colliders”
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>RWTH Aachen, Germany - 2nd Helmholtz Alliance “Physics at the Terascale” </div>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>TERASCALE PBH Physiczentrum Bad Honef, Germany - WE-HERAEUS-PHYSICS SEMINAR
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>DESY Hamburg, Germany - Kick-off Workshop, Physics </div>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>Karlsruhe Institute of Technology (KIT), Germany - SUSY07 </div>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>Institute of Physics, Bhubaneswar, India – Workshop on High Energy physics Phenomenology
+                            (WHEPP2006)
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>The Abdus Salam ICTP, Italy - Summer School on Particle Physics </div>
+                    </div>
+                </li>
+            </ol>
+
+            <!-- Talks -->
+            <p class="fs-4 mt-4 mb-2" id="talk">Talks in Seminars & Colloquium:</p>
+            <ol class="list-group list-group-numbered talk">
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>Centro America Mexico Webinars series: </div>
+                        Part-A: Supersymmetry Phenomenolgy: <a target="_blank"
+                            href="https://youtu.be/5bWsfDV6y2w">https://youtu.be/5bWsfDV6y2w</a> <br>
+                        Part-B: Supersymmetry Formalism: <a target="_blank"
+                            href="https://youtu.be/YcGtaK5ov7E">https://youtu.be/YcGtaK5ov7E</a>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>Beyond Standard Model phenomenology at High energy Collider Experiments, Universidad de San
+                            Carlos, Guatemala City, Guatemala, February 2019</div>
+                        Link: <a target="_blank"
+                            href="https://ecfm.usac.edu.gt/taxonomy/term/521">https://ecfm.usac.edu.gt/taxonomy/term/521/</a>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>Beyond Standard Model Phenomenology at High Energy Collider Experiments, Yachay Tech
+                            University, October 2018 </div>
+                        Link: <a target="_blank"
+                            href="https://www.yachaytech.edu.ec/evento/beyond-standard-model-phenomenology-at-high-energy-colliders/">https://www.yachaytech.edu.ec/evento/beyond-standard-model-phenomenology-at-high-energy-colliders/</a>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>“Non-standard Higgs boson phenomenology at LHeC”, at 2nd ComHEP Workshop, December
+                            2017, at Universidad Nacional de Colombia, Bogota, Colombia</div>
+                        Link: <a target="_blank"
+                            href="https://indico.cern.ch/event/640471/contributions/2599021/">https://indico.cern.ch/event/640471/contributions/2599021/</a>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>“Light CP-even Higgs searches”, at LHeC and FCC-eh Workshop, September 2017, at CERN,
+                            Geneva, Switzerland </div>
+                        Link: <a target="_blank"
+                            href="https://indico.cern.ch/event/639067/contributions/2700463/attachments/">https://indico.cern.ch/event/639067/contributions/2700463/attachments/</a>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div> “Non-standard Higgs bosons searches at Large Hadron electron Collider (LHeC)”, May 2017,
+                            at MC4BSM 2017 at SLAC, Stanford, USA</div>
+                        Link: <a target="_blank"
+                            href="https://indico.cern.ch/event/568875/contributions/2548702/attachments/1459110/2253243/spMC4BSM.pdf">https://indico.cern.ch/event/568875/contributions/2548702/attachments/1459110/2253243/spMC4BSM.pdf</a>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>“Beyond Standard Model phenomenology at present and upcoming colliders”, at
+                            theUniversidad de Antonio Narino, Bogota, Colombia, August 2017 </div>
+                        Link: <a target="_blank"
+                            href="http://investigacion.uan.edu.co/grupo-de-investigacion-fenomenologia-de-particulas-elementales-y-cosmologia/seminarios">http://investigacion.uan.edu.co/grupo-de-investigacion-fenomenologia-de-particulas-elementales-y-cosmologia/seminarios</a>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>“A brief discussion on NMSSM Higgs phenomenology at LHC and LHeC”, Phenomenology
+                            Seminar, April 2017, Uniandes, Bogota, Colombia </div>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>“Neutrino and Higgs phenomenology at present and future colliders”,Grupo de Fenomenologia
+                            de Interacciones Fundamentales, March 2017, Universidad de Antioquia,Medellin,
+                            Colombia </div>
+                        Link: <a target="_blank"
+                            href="http://gfif.udea.edu.co/seminarios/">http://gfif.udea.edu.co/seminarios/</a>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>“Unraveling the new physics at High Energy Collider Experiments”, Physics
+                            Colloquium,February 2016, Uniandes, Bogota, Colombia
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>“Neutrino Phenomenology beyond the Standard Model at the Large Hadron Collider”,
+                            Phenomenology Seminar, January 2016, Uniandes, Bogota, Colombia
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>“How to look for new physics at collider experiments”, Theory seminar, January 2016,FCFM,
+                            BUAP, Puebla, Mexico </div>
+                        Link: <a target="_blank"
+                            href="http://www.fcfm.buap.mx/PCyRG/charlas2016-1.html">http://www.fcfm.buap.mx/PCyRG/charlas2016-1.html</a>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>“A short overview on Higgs physics at the LHC and LHeC”, in Mexico, September 2014 </div>
+                        CINVESTAV Colloquium: <a target="_blank"
+                            href="http://indico.fis.cinvestav.mx/categoryDisplay.py?categId=1">http://indico.fis.cinvestav.mx/categoryDisplay.py?categId=1</a>
+                        <br>
+                        ICN-UNAM: <a target="_blank"
+                            href="https://indico.nucleares.unam.mx/conferenceDisplay.py?confId=856">https://indico.nucleares.unam.mx/conferenceDisplay.py?confId=856</a>
+                        <br>
+                        UGTO: <a target="_blank"
+                            href="http://fisica.ugto.mx/~gfm/ai1ec_event/physics-seminar-31/?instance_id=9346">http://fisica.ugto.mx/~gfm/ai1ec_event/physics-seminar-31/?instance_id=9346</a>
+                        <br>
+                        IFUAP: <a target="_blank"
+                            href="http://www.ifuap.buap.mx/seminario/resumen/2014/38_Siba.pdf">http://www.ifuap.buap.mx/seminario/resumen/2014/38_Siba.pdf</a>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>“A brief discussion on Higgs boson phenomenology at the LHC and LHeC”, May 2015,at IFM,
+                            Michoacan, Mexico </div>
+                        Link: <a target="_blank"
+                            href="http://www.ifm.umich.mx/ifm/index.php/instituto/seminarios-y-eventos/">http://www.ifm.umich.mx/ifm/index.php/instituto/seminarios-y-eventos/</a>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>“Signature of Neutrinos at the Large Hadron Collider”, in Mexico,September 2014 (CINVESTAV)
+                        </div>
+                        Link: <a target="_blank"
+                            href="http://indico.fis.cinvestav.mx/conferenceDisplay.py?confId=434">http://indico.fis.cinvestav.mx/conferenceDisplay.py?confId=434</a>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>“A short overview on Higgs physics at the Large Hadron Collider”, PAMU, ISI, Kolkata,India,
+                            February 2014 </div>
+                        Link: <a target="_blank"
+                            href="http://www.isical.ac.in/~pamu/seminar.php">http://www.isical.ac.in/~pamu/seminar.php</a>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>CPFS-CTP Colloquium: “A brief introduction to Higgs phenomenology at LHC”, June 2014,Jamia
+                            Millia Islamia, New Delhi, India </div>
+                        Link: <a target="_blank"
+                            href="http://www.ctp-jamia.res.in/events/talks.html">http://www.ctp-jamia.res.in/events/talks.html</a>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>“Signature of Neutrinos at Large Hadron Collider” , TIFR, India, July 2012 </div>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div> </div>
+                        Link: <a target="_blank"
+                            href="http://theory.tifr.res.in/~nilmani/free_meson/free_meson_12July12.pdf">http://theory.tifr.res.in/~nilmani/free_meson/free_meson_12July12.pdf</a>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>“Flavor violating and CP-violating Supersymmetric Higgs at LHC” , Universidad de Zaragoza,
+                            Spain, February 2011 </div>
+                        Link: <a target="_blank"
+                            href="http://dftuz.unizar.es/ftzar/activities/seminars/2011/20110225.html">http://dftuz.unizar.es/ftzar/activities/seminars/2011/20110225.html</a>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>“Rare decays and CP violating Higgs at MSSM and beyond”, LPT, Orsay, France, January
+                            2011 </div>
+                        Link: <a target="_blank"
+                            href="http://www.th.u-psud.fr/IMG/pdf/Das2011.pdf">http://www.th.u-psud.fr/IMG/pdf/Das2011.pdf</a>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>“Bilinear RPV and LHC at 7 TeV”, II-CPAN Days, Valencia, November 2010, Spain </div>
+                        Link: <a target="_blank"
+                            href="http://indico.ific.uv.es/indico/contributionDisplay.py?contribId=11&sessionId=21&confId=313">http://indico.ific.uv.es/indico/contributionDisplay.py?contribId=11&sessionId=21&confId=313</a>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>“Neutralino decay length measurement consistent with Neutrino masses and mixing in Bilinear
+                            R-parity violating MSSM at LHC”, HEPTOOLS final meeting, Granada, Spain, November
+                            2010 </div>
+                        Link: <a target="_blank"
+                            href="http://indico.cern.ch/getFile.py/access?resId=10&materialId=slides&confId=91923">http://indico.cern.ch/getFile.py/access?resId=10&materialId=slides&confId=91923</a>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>“CP-violating Higgs at Tevatron and LHC” , SUSY 10, Bonn, August 2010 </div>
+                        Link: <a target="_blank"
+                            href="http://indico.desy.de/getFile.py/access?contribId=172&sessionId=232&resId=0&materialId=slides&confId=2955">http://indico.desy.de/getFile.py/access?contribId=172&sessionId=232&resId=0&materialId=slides&confId=2955</a>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>“CP-violating Higgs at Tevatron and LHC”, PASCOS 2010, Valencia, July 2010, Spain </div>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>“Sneutrino LSPs in R-parity violating mSUGRA Models and feasibility study at the
+                            LHC”,IFIC, University of Valencia, January 2009, Spain </div>
+                        Link: <a target="_blank"
+                            href="http://ific.uv.es/ahep/Talks/090123-das.pdf">http://ific.uv.es/ahep/Talks/090123-das.pdf</a>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>“Sneutrino LSPs in R-parity violating minimal supergravity models”,DESY-TH workshop,
+                            Sepmetmber 2008, Germany </div>
+                        Link: <a target="_blank"
+                            href="http://th-workshop2008.desy.de/e44/e49/e158/infoboxContent185/Das.pdf">http://th-workshop2008.desy.de/e44/e49/e158/infoboxContent185/Das.pdf</a>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>“CP-violating Higgs at Tevatron”, Focus week on LHC physics, IPMU, Tokyo University,
+                            Kashiwa, June 2008, Japan </div>
+                        Link: <a target="_blank"
+                            href="http://www.ipmu.jp/seminars/lhc08/cpvHIPMUDas.pdf">http://www.ipmu.jp/seminars/lhc08/cpvHIPMUDas.pdf</a>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>“CP-violating Higgs at Tevatron”, SUSY-08, Seoul, June 2008, South Korea </div>
+                        Link: <a target="_blank"
+                            href="http://susy08.kias.re.kr/slide/19p/p1/2nd/Das.pdf">http://susy08.kias.re.kr/slide/19p/p1/2nd/Das.pdf</a>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                        <div>“Sneutrino LSPs in R-Parity Violating Minimal Supergravity Models”, SUSY-08, Seoul, June
+                            2008, South Korea </div>
+                        Link: <a target="_blank"
+                            href="http://susy08.kias.re.kr/slide/20p/p2/2nd/spdas.pdf">http://susy08.kias.re.kr/slide/20p/p2/2nd/spdas.pdf</a>
+                    </div>
+                </li>
+            </ol>
+        </div>
+        <div class="col-xl-1"></div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block js %}{% endblock %}

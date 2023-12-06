@@ -1,0 +1,104 @@
+{% extends "layout.html" %}
+
+{% block head %}
+<!-- Academicons -->
+<link rel="stylesheet" href="../static/vendor/academicons-1.9.4/css/academicons.min.css">
+
+<!-- My Contact CSS -->
+<link rel="stylesheet" href="../static/mycss/contact.css">
+{% endblock %}
+
+{% block title %}Contact{% endblock %}
+
+<!-- Contact Page Title-->
+{% block pagetitle %}Contact{% endblock %}
+
+<!-- Contact Content -->
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-xl-1"></div>
+        <!-- Form, Email, Mobile Number -->
+        <div class="col-xl-5 mt-4 mytext">
+            <!-- Mail & Mobile number  -->
+            <div class="p-4">
+                <p class="fs-4">Contact Details</p>
+                <i class="fas fa-envelope"></i> &nbsp; sibapdasphys@gmail.com
+                <br>
+                <i class="fas fa-envelope" id="myemptyicon"></i> &nbsp; spdas@unishivaji.ac.in
+                <br>
+                <i class="fas fa-phone-alt"></i> &nbsp; +91-6289547498
+            </div>
+            <!-- Contact Form -->
+            <form class="p-4 pt-1" action="/contactform">
+                <p class="">Or you can fill <u>contact form</u> below</p>
+                <div class="mb-3">
+                    <label for="formname" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="formname" required>
+                </div>
+                <div class="mb-3">
+                    <label for="formemail" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="formemail" required>
+                </div>
+                <div class="mb-3">
+                    <label for="formmessage" class="form-label">Message</label>
+                    <textarea class="form-control" id="formmessage" rows="2" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+        </div>
+
+        <!-- Address, Google Map, Social Media Icons -->
+        <div class="col-xl-5">
+            <!-- Address  -->
+            <div class="p-4 mt-4 mytext">
+                <p class="fs-4">Address</p>
+                Department of Physics,
+                <br>
+                Shivaji University, Vidyanagar, Kolhapur,
+                <br>
+                Maharashtra, India - 416004
+            </div>
+            <!--Google Map-->
+            <div class="map">
+                <div class="container-fluid">
+                    <div class="map-responsive">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7643.904412892868!2d74.2497719911916!3d16.679274919175327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc0ffd7c7d5a661%3A0x6f138e7a313caaf5!2sDepartment%20Of%20Physics!5e0!3m2!1sen!2sin!4v1701450062308!5m2!1sen!2sin"
+                            width="480" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <!-- Social Media Icons -->
+            <div class="socialicons p-4 mt-1" id="links">
+                <p class="fs-4">Links</p>
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="mailto:sibapdasphys@gmail.com" target=”_blank”>
+                            <i class="fas fa-envelope fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="skype:spdasphysics?chat" target=”_blank”>
+                            <i class="fab fa-skype fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://inspirehep.net/authors/1041860" target="_blank">
+                            <i class="ai ai-inspire ai-2x"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://arxiv.org/search/gr-qc?searchtype=author&query=Das,+S+P" target="_blank">
+                            <i class="ai ai-arxiv ai-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-xl-1"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block js %}{% endblock %}

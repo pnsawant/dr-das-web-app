@@ -1,0 +1,15 @@
+.participation li {
+    border: none !important;
+    margin-top: 0.025rem;
+    margin-bottom: 0.025rem;
+}
+
+.talk li {
+    border: none !important;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+ol li div {
+    word-break: break-word !important;
+}

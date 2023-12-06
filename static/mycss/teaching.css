@@ -1,0 +1,41 @@
+.teaching-interests li {
+    border: none !important;
+    margin-top: 0.025rem;
+    margin-bottom: 0.025rem;
+}
+
+.lectures-AS li {
+    border: none !important;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.lectures-AS li div {
+    word-break: break-word !important;
+}
+
+/* Timeline CSS */
+.timeline {
+    border-left: 1px solid rgb(6, 135, 6);
+    position: relative;
+    list-style: none;
+}
+
+.timeline .timeline-item {
+    position: relative;
+}
+
+.timeline .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .timeline-item:after {
+    background-color: rgb(6, 135, 6);
+    left: -38px;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+}

@@ -1,0 +1,108 @@
+#abouttext ul li {
+    margin-top: 0.45em !important;
+    margin-bottom: 0.45rem !important;
+}
+
+@media (width>768px) {
+    .myabout {
+        margin-top: 4rem !important;
+    }
+}
+
+@media (width<768px) {
+    .myabout {
+        margin-top: 2rem !important;
+    }
+
+    #abouttext {
+        margin-top: 1.2rem !important;
+    }
+}
+
+@media (width>=1400px) {
+    #profile-picture {
+        height: 96% !important;
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    #profile-picture {
+        height: 75% !important;
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    #profile-picture {
+        height: 85% !important;
+        width: 100% !important;
+    }
+}
+
+
+@media (768px<=width<992px) {
+    #profile-picture {
+        height: 50% !important;
+        width: 100% !important;
+
+    }
+}
+
+@media (576px<=width<768px) {
+    #profile-picture {
+        height: 100% !important;
+        width: 50% !important;
+    }
+}
+
+@media (width<576px) {
+    #profile-picture {
+        height: 100% !important;
+        width: 55% !important;
+
+    }
+}
+
+.socialicons ul li a {
+    position: relative;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.5s cubic-bezier(0.95, 0.32, 0.37, 1.37);
+}
+
+.socialicons ul li a:hover {
+    color: white;
+}
+
+.socialicons ul li a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.5s;
+    transform: scale(0);
+}
+
+.socialicons ul li a:hover:before {
+    transform: scale(1);
+}
+
+.socialicons ul li:nth-child(1) a:hover:before {
+    background: #63b5f5;
+}
+
+.socialicons ul li:nth-child(2) a:hover:before {
+    background: #6b6459;
+}
