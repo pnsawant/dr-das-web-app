@@ -28,14 +28,14 @@
 
 @media (min-width: 1200px) and (max-width: 1400px) {
     #profile-picture {
-        height: 75% !important;
+        height: 87.5% !important;
         width: 100% !important;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
     #profile-picture {
-        height: 85% !important;
+        height: 95% !important;
         width: 100% !important;
     }
 }
@@ -43,7 +43,7 @@
 
 @media (768px<=width<992px) {
     #profile-picture {
-        height: 50% !important;
+        height: 95% !important;
         width: 100% !important;
 
     }
